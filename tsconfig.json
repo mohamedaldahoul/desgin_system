@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "outFile": "./",
+    "outDir": "build/lib",
+    "rootDir": "src",
+
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "suppressExcessPropertyErrors": true,
+
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts"]
+}
